@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.github.biezhi:anima:0.2.7-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/biezhi/anima/0.2.7-SNAPSHOT/anima-0.2.7-20190105.124938-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/biezhi/anima/0.2.7-SNAPSHOT/anima-0.2.7-20190105.124938-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/biezhi/anima/0.2.7-SNAPSHOT/anima-0.2.7-20190105.124938-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

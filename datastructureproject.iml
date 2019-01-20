@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.bladejava:blade-mvc:2.0.11.ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: com.bladejava:blade-asm:0.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.bladejava:blade-log:0.1.6" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.29.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.github.biezhi:anima:0.2.7-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.baidu.aip:java-sdk:4.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.54" level="project" />
+    <orderEntry type="library" name="Maven: com.bladejava:blade-template-jetbrick:0.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.subchen:jetbrick-template:2.1.6" level="project" />
+    <orderEntry type="library" name="Maven: com.github.subchen:jetbrick-commons:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.9" level="project" />
+    <orderEntry type="library" name="Maven: org.mapdb:mapdb:3.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-runtime:1.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.collections:eclipse-collections-api:7.1.2" level="project" />
+    <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.collections:eclipse-collections:7.1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.collections:eclipse-collections-forkjoin:7.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Maven: net.jpountz.lz4:lz4:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mapdb:elsa:3.0.0-M5" level="project" />
+    <orderEntry type="library" name="Maven: com.atlassian.commonmark:commonmark:0.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.atlassian.commonmark:commonmark-ext-gfm-tables:0.11.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vdurmont:emoji-java:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.scribejava:scribejava-apis:5.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.scribejava:scribejava-core:5.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.11.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.xerial:sqlite-jdbc:3.7.2" level="project" />
+  </component>
+</module>
