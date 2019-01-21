@@ -1,6 +1,7 @@
 package com.bladejava.controller;
-
-
+/**
+ * @manageControl 该类是管理与景点相关路由的类,包含基本的增删改查
+ * */
 import com.blade.ioc.annotation.Inject;
 import com.blade.mvc.annotation.GetRoute;
 import com.blade.mvc.annotation.JSON;
@@ -11,17 +12,20 @@ import com.bladejava.service.projectDataStructure.information;
 import com.bladejava.service.projectDataStructure.sceneNode;
 import com.bladejava.service.projectDataStructure.scenePath;
 import io.github.biezhi.anima.Anima;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @path 定义路由
+ * */
 @Path("manage")
 public class manageControl {
 
+    /*注入依赖，将内存中的sceneGraphSys注入进去*/
     @Inject
     private systemConfig sceneGraphSys;
 
+    /* 表明返回值是json格式 */
     @JSON
     @GetRoute("saveTip")
     public String saveTip(Request request){
@@ -68,7 +72,14 @@ public class manageControl {
         if(name.equals("null")){
             symbol=0;
         }
-        return "ok";
+        else {
+            int result=Anima.delete().from(sceneNode.class).where("name",name).execute();
+            int result2=Anima.delete().from(scenePath.class).where("start",name).execute();
+            int result3=Anima.delete().from(scenePath.class).where("end",name).execute();
+            symbol=1;
+        }
+        sceneGraphSys.upload();
+        return symbol+"";
     }
 
     @JSON
@@ -79,8 +90,6 @@ public class manageControl {
         String end=request.query("end","null");
         String newweight=request.query("newWeight","null");
         String oldWeight=request.query("oldWeight","null");
-        System.out.println(start);
-        System.out.println(end);
         if(oldWeight.equals("0")){
 //            说明需要insert
             Anima.save(new scenePath(Integer.parseInt(newweight),start,end));

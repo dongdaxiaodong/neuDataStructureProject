@@ -1,4 +1,12 @@
 package com.bladejava.service.projectDataStructure;
+
+/**
+ * @sceneGraph 景点图类，是该项目最重要的数据结构
+ * @myLinkedList<sceneNode> 存放所有景点的链表(自己实现的数据结构)
+ * @myLinkedList<String> 存放所有景点的名称
+ * @myLinkedList<scenePath> 存放所有路径
+ * @int[][]sceneNodeMatrix 存放邻接矩阵
+ **/
 import com.bladejava.service.definedDataStructure.myLinkedList;
 public class sceneGraph {
     private myLinkedList<sceneNode> sceneNodemyLinkedList;
@@ -7,12 +15,14 @@ public class sceneGraph {
     /* sceneNodeMatrix是邻接矩阵,和sceneNodeNameList一起服务于第一问*/
     private int[][] sceneNodeMatrix;
 
+    /** 构造函数 */
     public sceneGraph(myLinkedList<sceneNode> sceneNodemyLinkedList,myLinkedList<scenePath> scenePathmyLinkedList){
         this.sceneNodemyLinkedList=sceneNodemyLinkedList;
         this.scenePathmyLinkedList=scenePathmyLinkedList;
         this.initialSceneNodeNameList();
     }
 
+    /*初始化所有景点的名称*/
     private void initialSceneNodeNameList(){
         this.sceneNodeNameList=new myLinkedList<>();
         for(int i=0;i<this.sceneNodemyLinkedList.actualLength;i+=1){

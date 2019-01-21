@@ -1,5 +1,10 @@
 package com.bladejava.service.definedDataStructure;
 
+
+/**
+ * 使用java最基本的数据结构array实现的stack数据结构
+ * 实现stack最基本的几种方法
+ * */
 public class myStack<T> {
     private Object[] objStack;
     private int initialCapacity;

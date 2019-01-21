@@ -7,9 +7,12 @@ import java.util.stream.Collectors;
 public class hamiltonian {
 
 
-/*
-  hamiPath方法:求从一个景点进入并且每个景点只走一次的算法
-  参数:String start为该入口景点的名称
+/**
+  该算法是解决哈密尔顿回路的算法,为本人原创
+  该算法大致思想是通过广度优先算法进行迭代，然后求出所有解法，最终对解法进行排序
+  算法复杂度和业界普遍算法复杂度类似
+  @method:求从一个景点进入并且每个景点只走一次的算法
+  @param :String start为该入口景点的名称
   返回值: LinkedList<LinkedList<String>> allRightPaths
   allRightPaths的size()为有多少条线路，allRightPaths.get(0)表示第一条成功线路
 */
@@ -46,6 +49,8 @@ public class hamiltonian {
                         String bothPath=path.getStartNode()+" "+path.getEndNode();
                         return bothPath.indexOf(endNode)>=0;
                     }).collect(Collectors.toList());
+
+            /*对containsList进行迭代，然后逻辑判断是否应该加入runninngQueue,是广度优先算法的基本实现*/
             for(int i=0;i<containsList.size();i+=1){
                 String bothStr=containsList.get(i).getStartNode()+" "+containsList.get(i).getEndNode();
                 boolean canAdd=true;

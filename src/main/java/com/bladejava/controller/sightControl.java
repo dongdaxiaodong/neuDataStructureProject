@@ -1,4 +1,7 @@
 package com.bladejava.controller;
+/**
+ * @manageControl 该类是管理与停车场相关路由的类,包含基本的增删改查
+ * */
 import com.blade.ioc.annotation.Inject;
 import com.blade.mvc.annotation.GetRoute;
 import com.blade.mvc.annotation.JSON;
@@ -14,25 +17,28 @@ import com.bladejava.service.projectDataStructure.sceneNode;
 import com.bladejava.service.projectDataStructure.scenePath;
 import io.github.biezhi.anima.Anima;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Path("sight")
 public class sightControl {
 
+
+    /*注入依赖，将内存中的sceneGraphSys注入进去*/
     @Inject
     private systemConfig sceneGraphSys;
 
+    /* 表明返回值是json格式 */
     @JSON
     @GetRoute("allNames")
     public String allNames(){
+        sceneGraphSys.upload();
         myLinkedList<String> namesList=sceneGraphSys.mySceneGraph.getSceneNodeNameList();
 
         String[] resultArray=new String[namesList.actualLength];
         for(int i=0;i<namesList.actualLength;i+=1){
             resultArray[i]=namesList.get(i);
         }
-        Arrays.stream(resultArray).forEach(str->System.out.println(str));
         return com.alibaba.fastjson.JSON.toJSONString(resultArray);
     }
 
@@ -46,6 +52,7 @@ public class sightControl {
     @JSON
     @GetRoute("all")
     public String getAllSights(){
+        sceneGraphSys.upload();
         myLinkedList<scenePath> myPathList=sceneGraphSys.mySceneGraph.getScenePathmyLinkedList();
         ArrayList<scenePath> returnPathList=new ArrayList<>();
 
@@ -65,6 +72,7 @@ public class sightControl {
     @JSON
     @GetRoute("findSight")
     public String findSight(){
+        sceneGraphSys.upload();
         myLinkedList<sceneNode> findSightList=sceneGraphSys.mySceneGraph.getSceneNodemyLinkedList();
         ArrayList<sceneNode> findSightArray=new ArrayList<>();
         for(int i=0;i<findSightList.actualLength;i+=1){
@@ -88,6 +96,25 @@ public class sightControl {
         String shortestLength=myShortestPathalgorithm.ShortestPath(sceneGraphSys.mySceneGraph,start,end);
         return shortestLength;
     }
+
+    @JSON
+    @GetRoute("deletepath")
+    public String deletepath(Request request){
+        String startpath=request.query("startpath","null");
+        String endpath=request.query("endpath","null");
+        int check=-1;
+        try {
+            int result=Anima.delete().from(scenePath.class).where("start",startpath).where("end",endpath).execute();
+            int result2=Anima.delete().from(scenePath.class).where("start",endpath).where("end",startpath).execute();
+            check=1;
+            List<car>theCar=Anima.select().from(car.class).filter(car->car.getStatus().equals("3")).collect(Collectors.toList());
+
+        }
+        catch (Exception e){
+            check=0;
+        }
+        return check+"";
+    }
     @JSON
     @GetRoute("allPath")
     public String allPath(Request request){
@@ -100,10 +127,14 @@ public class sightControl {
     public String outcar(Request request){
         String time=request.query("time","null");
         String name=request.query("name","null");
-        System.out.println(time);
         try {
             int result=Anima.update().from(car.class).set("status","2").where("carid",name).execute();
             int result2=Anima.update().from(car.class).set("end",time).where("carid",name).execute();
+            List<car> cars= Anima.select().from(car.class).filter(car->car.getStatus().equals("3")).collect(Collectors.toList());
+            if(cars.size()>0){
+                car this_car=cars.get(0);
+                Anima.update().from(car.class).set("status","1").where("carid",this_car.getCarNumber()).execute();
+            }
         }
         catch (Exception  e){
             System.out.println(e);

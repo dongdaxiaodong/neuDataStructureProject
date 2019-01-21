@@ -1,6 +1,6 @@
 package com.bladejava.service.definedDataStructure;
 
-/*
+/**
 1.使用最基本的数据结构Array和泛型实现LinkedList数据结构
 2.实现后的myLinkedList数据结构将用于构造景区的邻接表
 */
@@ -46,7 +46,6 @@ public class myLinkedList<T>{
     public boolean add(T obj){
         if(!checkCapacity()){
             /* 如果myArray满了，需要扩容 */
-//            System.out.println("fill");
             this.addCapacity();
             this.myArray[this.actualLength]=obj;
         }

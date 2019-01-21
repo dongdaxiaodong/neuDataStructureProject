@@ -3,7 +3,7 @@ package com.bladejava.service.algorithm;
 import com.bladejava.service.definedDataStructure.myLinkedList;
 import com.bladejava.service.projectDataStructure.sceneNode;
 
-/*
+/**
  mySort类:包含了冒泡排序和插入排序
  每种排序算法都支持按照欢迎度和岔路树进行排序
 */

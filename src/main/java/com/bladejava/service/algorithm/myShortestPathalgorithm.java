@@ -7,19 +7,24 @@ import com.bladejava.service.projectDataStructure.scenePath;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-/*
+/**
+* 该类包含求出两景点的最短路径的算法，算法为本人原创,没有任何借鉴
 * myShortestPathalgorithm类:计算最短路径和值
 */
 public class myShortestPathalgorithm {
 
+    /**
+     * @ShortestPath:该算法维护两个队列，两个哈希表
+     * 第一个队列为runningQueue，用于存放将要进行迭代的景点
+     * 第二个队列为userdQueue,用于存放已经迭代过的景点(避免重复迭代)
+     * 第一个哈希表存放各景点到起始点的最短路径
+     * 第二各哈希表存放各景点到起始点的路径长度
+     * */
     public static String ShortestPath(sceneGraph graph,String startNode,String endNode){
         myLinkedList<String> nameList=graph.getSceneNodeNameList();
         myLinkedList<scenePath> scenePathList=graph.getScenePathmyLinkedList();
         HashMap<String,Integer> pathMap=myShortestPathalgorithm.miniMap(nameList);
         HashMap<String,String> routeMap=myShortestPathalgorithm.pathMap(nameList);
-//        for(int i=0;i<pathMap.keySet().toArray().length;i+=1){
-//            System.out.println(pathMap.keySet().toArray()[i]);
-//        }
         LinkedList<String> runningQueue=new LinkedList<>();
         myLinkedList<String> usedList=new myLinkedList<>();
         runningQueue.add(startNode);
@@ -62,7 +67,6 @@ public class myShortestPathalgorithm {
         for(int i=0;i<nameList.actualLength;i+=1){
                 map.put(nameList.get(i),0);
         }
-        System.out.println(map.size());
         return map;
     }
     public static HashMap<String,String> pathMap(myLinkedList<String> nameList){

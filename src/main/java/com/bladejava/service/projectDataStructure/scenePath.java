@@ -3,7 +3,15 @@ package com.bladejava.service.projectDataStructure;
 import io.github.biezhi.anima.Model;
 import io.github.biezhi.anima.annotation.Column;
 import io.github.biezhi.anima.annotation.Table;
+/**
+ * @author 张奥东
+ * @return scenePath类是有关景点间路径的类，包含id,startNode,endNode,weight等属性
+* */
 
+
+/**
+ * @Table 用于在数据库中进行对应
+ * */
 @Table(name="path")
 public class scenePath extends Model{
 

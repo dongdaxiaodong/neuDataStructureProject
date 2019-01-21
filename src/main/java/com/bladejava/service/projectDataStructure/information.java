@@ -1,10 +1,15 @@
 package com.bladejava.service.projectDataStructure;
-
+/**
+ * @information 该类为景区通知消息类
+ * */
 
 import io.github.biezhi.anima.Model;
 import io.github.biezhi.anima.annotation.Column;
 import io.github.biezhi.anima.annotation.Table;
 
+/**
+ * 在数据库中定义表名:information
+ */
 @Table(name="information")
 public class information extends Model {
 

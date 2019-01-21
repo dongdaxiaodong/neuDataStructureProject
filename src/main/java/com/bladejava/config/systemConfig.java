@@ -11,13 +11,18 @@ import com.bladejava.service.projectDataStructure.scenePath;
 import com.bladejava.service.definedDataStructure.myLinkedList;
 import com.bladejava.service.projectDataStructure.sceneNode;
 
+
+/**
+ * @systemConfig 这个是系统配置类，用于该应用启动时的项目配置(加载景点数据)
+ * @author 张奥东
+ * */
 @Bean
 public class systemConfig  {
     public sceneGraph mySceneGraph;
     public ArrayList<String> sightTips;
 
     public void upload(){
-        /* todo--初始化 包括读入两个文件以及生成graph*/
+        /* 初始化 包括读入两个文件以及生成graph*/
         Connection c = null;
         Statement stmt=null;
         try {
@@ -27,7 +32,6 @@ public class systemConfig  {
             myLinkedList<scenePath> scenePathList=new myLinkedList<>();
 
 
-            System.out.println("Opened database successfully");
             stmt=c.createStatement();
             ResultSet rs=stmt.executeQuery("SELECT * FROM node;");
             while (rs.next()){
@@ -46,8 +50,9 @@ public class systemConfig  {
                 int weight=Integer.parseInt(rs.getString("weight"));
                 scenePathList.add(new scenePath(weight,start,end));
                 scenePathList.add(new scenePath(weight,end,start));
-                mySceneGraph=new sceneGraph(sceneNodeList,scenePathList);
             }
+            mySceneGraph=new sceneGraph(sceneNodeList,scenePathList);
+
         } catch ( Exception e ) {
             System.err.println( e.getClass().getName() + ": " + e.getMessage() );
             System.exit(0);
