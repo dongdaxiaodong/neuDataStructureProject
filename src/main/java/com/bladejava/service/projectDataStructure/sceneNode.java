@@ -11,6 +11,8 @@ import java.util.HashMap;
 * sceneNode:景点类
 * 其中包含了一个景点所有的信息
 */
+
+
 @Table(name="node")
 public class sceneNode extends Model{
     @Column(name="name")
@@ -31,7 +33,6 @@ public class sceneNode extends Model{
     @Column(name="turn")
     private int turnstiles;
 
-    private myLinkedList<sceneNode> nearbyNodes;
 
     public sceneNode(String name,String description,int popularity,boolean hasLeisure, boolean hasToilet,int turnstiles){
         this.sceneName=name;

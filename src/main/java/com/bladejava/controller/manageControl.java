@@ -51,11 +51,13 @@ public class manageControl {
         boolean leisure=(request.query("leisure","no")).equals("1");
         boolean toilet=(request.query("toilet","no")).equals("1");
         int turn =Integer.parseInt(request.query("turn","no"));
+        System.out.println(name+" "+des);
         try {
             Anima.save(new sceneNode(name,des, popularity,leisure,toilet,turn));
             symbol=1;
         }
         catch (Exception e){
+            System.out.println(e);
             symbol=2;
         }
 
