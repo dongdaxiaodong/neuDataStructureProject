@@ -11351,3 +11351,1196 @@ Caused by: java.sql.SQLException: path to '/src/main/resources/system.db': 'E:\s
 2019/01/21 22:50:53 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
 2019/01/21 22:50:53 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 23 ms, execution: 4 ms, reading and parsing: 19 ms; executed [null]
 2019/01/21 22:50:53  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   311ms  GET    /sight/getTips
+2019/01/21 23:20:44  INFO [              main ]                       c.b.Blade : current environment is: default
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_131
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\blade_projects\datastructureproject
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\张奥东\AppData\Local\Temp\
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => UTF-8
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/blade_projects/datastructureproject/target/classes/
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/deletepath
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/shortestPath
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/findSight
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/allNames
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/uploadPath
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/outcar
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/deleteSight
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/saveTip
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/addcar
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/allCars
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/hami
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/addSight
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/allPath
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/all
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/getTips
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.bladejava.config.loadConfig@253c4218, com.blade.Environment@280f8a0a, com.bladejava.config.systemConfig@365a6e1d, com.bladejava.controller.manageControl@735aa5a4, com.bladejava.controller.indexControl@34b11555, com.bladejava.controller.sightControl@60ba9613, com.bladejava.config.loadConfig@253c4218]
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2019/01/21 23:20:45  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2019/01/21 23:20:47  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : dataStructureProject initialize successfully, Time elapsed: 2398 ms
+2019/01/21 23:20:47  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:8999 
+2019/01/21 23:20:47  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:8999 ⚡
+
+2019/01/21 23:20:51  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   120ms  GET    /
+2019/01/21 23:20:52 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/21 23:20:52 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:20:52 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 23 ms, execution: 4 ms, reading and parsing: 19 ms; executed [null]
+2019/01/21 23:20:52  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   304ms  GET    /sight/getTips
+2019/01/21 23:23:11 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/21 23:23:11 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:23:11 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:23:11  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/getTips
+2019/01/21 23:23:15  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200    19ms  GET    /sight/all
+2019/01/21 23:23:17  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200    11ms  GET    /sight/findSight
+2019/01/21 23:23:49  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/21 23:23:54  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/shortestPath
+2019/01/21 23:24:41  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/21 23:24:43 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:24:43 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:24:43 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:24:43  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200    48ms  GET    /sight/hami
+2019/01/21 23:24:45 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:24:45 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:24:45 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:24:45  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200    40ms  GET    /sight/allCars
+2019/01/21 23:24:47 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:24:47 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:24:47 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:24:47  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:24:49 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:24:49 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:24:49 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:24:49  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:24:49 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:24:49 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:24:49 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:24:49  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:24:50 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:24:50 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:24:50 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:24:50  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:29:33 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:33 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:33 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:33  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:29:34 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:34 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:34 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:34  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:29:35 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:35 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:35 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:35  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/21 23:29:36 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:36 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:36 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:36  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => [2775, uiui, 3, 1548084579127, ]
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : total: 114 ms; executed update [No name]
+2019/01/21 23:29:39  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200   137ms  GET    /sight/addcar
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:29:39  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:39 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:39  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:29:41 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:41 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:41 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:41  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/21 23:29:48 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:48 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:48 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:29:48  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:29:56 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:56 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:56 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:29:56  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:29:58 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/21 23:29:58 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => [2, 888]
+2019/01/21 23:29:58 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : total: 148 ms; executed update [No name]
+2019/01/21 23:29:58 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/21 23:29:58 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => [1548084598665, 888]
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : total: 147 ms; executed update [No name]
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => [1, uiui]
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : total: 114 ms; executed update [No name]
+2019/01/21 23:29:59  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200   486ms  GET    /sight/outcar
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:29:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:29:59  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/allCars
+2019/01/21 23:30:00 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:30:00 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:30:00 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:30:00  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:30:03 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:30:03 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:30:03 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:30:03  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:30:04  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/21 23:30:05  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/21 23:30:07  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/21 23:30:12  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/21 23:30:15  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/21 23:30:35  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/21 23:30:42 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:30:42 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:30:42 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:30:42  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/hami
+2019/01/21 23:30:50 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:30:50 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:30:50 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:30:50  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/21 23:30:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:30:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:30:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:30:59  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/21 23:31:03 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:31:03 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:31:03 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:31:03  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/21 23:31:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:31:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:31:59 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:31:59  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/hami
+2019/01/21 23:32:14 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:32:14 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:32:14 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:32:14  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:32:15 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:32:15 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:32:15 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:32:15  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:32:16 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:32:16 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:32:16 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:32:16  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:32:16 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:32:16 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:32:16 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:32:16  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:32:17 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:32:17 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:32:17 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:32:17  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:32:17  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/21 23:32:20 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/21 23:32:20 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:32:20 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:32:20  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/21 23:32:46  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/21 23:32:47  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/21 23:32:47  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/21 23:53:58 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:53:58 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:53:58 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:53:58  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     9ms  GET    /sight/hami
+2019/01/21 23:54:04 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:54:04 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:04 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:54:04  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/hami
+2019/01/21 23:54:05 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:54:05 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:05 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/21 23:54:05  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/21 23:54:07 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:54:07 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:07 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:54:07  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:54:08  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:54:08  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:54:08  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/21 23:54:09 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/21 23:54:09 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:54:09 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:54:09  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/21 23:55:17  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/allNames
+2019/01/21 23:55:17  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/21 23:55:19 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:55:19 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:55:19 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:55:19  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/hami
+2019/01/21 23:55:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:55:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:55:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:55:22  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/hami
+2019/01/21 23:55:25 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:55:25 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:55:25 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:55:25  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/21 23:55:33 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/21 23:55:33 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/21 23:55:33 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/21 23:55:33  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/hami
+2019/01/22 00:01:34 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 00:01:34 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:01:34 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 00:01:34  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 00:01:35  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/all
+2019/01/22 00:01:36  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 00:01:38  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/findSight
+2019/01/22 00:02:01 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 00:02:01 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:02:01 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:02:01  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 00:02:02 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 00:02:02 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:02:02 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 00:02:02  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 00:02:12  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 00:02:12 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 00:02:12 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:02:12 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 00:02:12  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allPath
+2019/01/22 00:02:21 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => INSERT INTO node(name, des, popu, leisure, toilet, turn) VALUES (?, ?, ?, ?, ?, ?)
+2019/01/22 00:02:21 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [iigg, ftftt, 20, true, true, 8]
+2019/01/22 00:02:21 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 162 ms; executed update [No name]
+2019/01/22 00:02:21  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200   193ms  GET    /manage/addSight
+2019/01/22 00:02:21  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allNames
+2019/01/22 00:02:21 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 00:02:21 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:02:21 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:02:21  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allPath
+2019/01/22 00:02:21  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 00:03:42  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200    20ms  GET    /sight/allNames
+2019/01/22 00:03:43 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 00:03:43 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:03:43 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:03:43  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 00:03:44 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 00:03:44 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:03:44 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:03:44  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 00:03:45 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 00:03:45 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:03:45 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:03:45  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 00:03:47 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 00:03:47 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:03:47 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:03:47  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 00:03:47  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 00:05:10  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 00:05:11  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 00:05:13 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 00:05:13 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:05:13 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 00:05:13  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/hami
+2019/01/22 00:05:15 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 00:05:15 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 00:05:15 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 00:05:15  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/22 08:33:41 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 08:33:41 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:33:41 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:33:41  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/getTips
+2019/01/22 08:33:44  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/all
+2019/01/22 08:33:48  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/22 08:33:53  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 08:34:01  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 08:34:10  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 08:34:14  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 08:34:18 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:34:18 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:18 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:18  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200    19ms  GET    /sight/hami
+2019/01/22 08:34:19 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:19 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:19 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:19  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/22 08:34:33 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:33 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:33 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:33  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 08:34:34 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:34 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:34 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:34:34  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:34:36 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 08:34:36 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [2, 222]
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 183 ms; executed update [No name]
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [1548117276852, 222]
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 157 ms; executed update [No name]
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:34:37  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200   455ms  GET    /sight/outcar
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:37 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:37  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 08:34:38 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:38 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:38 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:38  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 08:34:39 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:39 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:39 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:39  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 08:34:49 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 08:34:49 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [4730, 川C22701, 1, 1548117289241, ]
+2019/01/22 08:34:49 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 95 ms; executed update [No name]
+2019/01/22 08:34:49  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200   108ms  GET    /sight/addcar
+2019/01/22 08:34:49 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:49 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:49 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:49  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:34:50 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:50 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:50 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:50  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:34:51 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:34:51 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:34:51 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:34:51  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 08:35:03 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 08:35:03 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [4225, 川D22emi, 3, 1548117303788, ]
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 250 ms; executed update [No name]
+2019/01/22 08:35:04  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200   301ms  GET    /sight/addcar
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:35:04  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:04 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:35:04  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:35:06 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:35:06 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:06 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:35:06  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [2, 777]
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 195 ms; executed update [No name]
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [1548117309141, 777]
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 162 ms; executed update [No name]
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [1, 川D22emi]
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 147 ms; executed update [No name]
+2019/01/22 08:35:09  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200   601ms  GET    /sight/outcar
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:35:09  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/22 08:35:10 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:35:10 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:10 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:35:10  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:35:14  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 08:35:14 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:35:14 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:14 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:35:14  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 08:35:35 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => INSERT INTO information(id, title, time) VALUES (?, ?, ?)
+2019/01/22 08:35:35 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [4265, 新小心再者, 2019/1/22 上午8:35:35]
+2019/01/22 08:35:35 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 188 ms; executed update [No name]
+2019/01/22 08:35:35  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   561ms  GET    /manage/saveTip
+2019/01/22 08:35:37 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 08:35:37 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:37 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:35:37  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/getTips
+2019/01/22 08:35:53  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200    83ms  GET    /sight/all
+2019/01/22 08:35:54 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 08:35:54 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:35:54 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:35:54  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/getTips
+2019/01/22 08:36:41 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 08:36:41 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:36:41 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:36:41  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200    22ms  GET    /sight/getTips
+2019/01/22 08:37:41  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/all
+2019/01/22 08:38:27  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200    12ms  GET    /sight/findSight
+2019/01/22 08:47:48  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 08:47:57  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 08:48:22  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     0ms  GET    /sight/shortestPath
+2019/01/22 08:48:46  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/shortestPath
+2019/01/22 08:49:18  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 08:50:54 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 08:50:54 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:50:54 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:50:54  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/getTips
+2019/01/22 08:50:54  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/22 08:50:57  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/22 08:51:04  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 08:51:08  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 08:51:10  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 08:51:12 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:51:12 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:12 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:51:12  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/22 08:51:13 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:51:13 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:13 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:51:13  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 08:51:16 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:51:16 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:16 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:51:16  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:51:17 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:51:17 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:17 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:51:17  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:51:17 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:51:17 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:17 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:51:17  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 08:51:18 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:51:18 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:18 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:51:18  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 08:51:23 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 08:51:23 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:51:23 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:51:23  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 08:52:56  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 08:53:00 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:53:00 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:53:00 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:53:00  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200    17ms  GET    /sight/hami
+2019/01/22 08:53:39 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:53:39 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:53:39 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:53:39  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/22 08:54:55  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allNames
+2019/01/22 08:58:09 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:58:09 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:58:09 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:58:09  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 08:58:09  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 08:58:23 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => INSERT INTO node(name, des, popu, leisure, toilet, turn) VALUES (?, ?, ?, ?, ?, ?)
+2019/01/22 08:58:23 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => [云墨海, 海洋的世界, 20, false, true, 8]
+2019/01/22 08:58:23 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : total: 134 ms; executed update [No name]
+2019/01/22 08:58:23  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200   164ms  GET    /manage/addSight
+2019/01/22 08:58:24 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:58:24 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:58:24  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allNames
+2019/01/22 08:58:24 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:58:24  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allPath
+2019/01/22 08:58:24  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 08:58:31  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/22 08:58:38  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 08:58:40  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 08:58:43 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:58:43 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:58:43 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:58:43  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 08:58:43  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 08:59:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => INSERT INTO path(weight, start, end) VALUES (?, ?, ?)
+2019/01/22 08:59:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => [4, 云墨海, 花卉园]
+2019/01/22 08:59:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : total: 170 ms; executed update [No name]
+2019/01/22 08:59:06  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   282ms  GET    /manage/uploadPath
+2019/01/22 08:59:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:59:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:59:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:59:06  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allPath
+2019/01/22 08:59:12  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/all
+2019/01/22 08:59:18 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:59:18 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:59:18 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:59:18  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 08:59:18  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE start = ? AND end = ?
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => [云墨海, 花卉园]
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : total: 118 ms; executed update [No name]
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE start = ? AND end = ?
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => [花卉园, 云墨海]
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : total: 3 ms; executed update [No name]
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:59:29 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 08:59:29  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200   240ms  GET    /sight/deletepath
+2019/01/22 08:59:30 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:59:30 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:59:30 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:59:30  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 08:59:30  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 08:59:34  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/findSight
+2019/01/22 08:59:37  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/all
+2019/01/22 08:59:41 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:59:41 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:59:41 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:59:41  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 08:59:41  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 08:59:54 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => DELETE FROM node WHERE name = ?
+2019/01/22 08:59:54 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => [云墨海]
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : total: 132 ms; executed update [No name]
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE start = ?
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => [云墨海]
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE end = ?
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => [云墨海]
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : total: 0 ms; executed update [No name]
+2019/01/22 08:59:55  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   156ms  GET    /manage/deleteSight
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => []
+2019/01/22 08:59:55 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 08:59:55  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 08:59:55  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 09:01:57 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:01:57 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:01:57 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:01:57  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/getTips
+2019/01/22 09:10:05  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 09:10:16  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/shortestPath
+2019/01/22 09:22:20  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/findSight
+2019/01/22 09:22:24  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/all
+2019/01/22 09:26:55  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/findSight
+2019/01/22 09:27:09  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 09:27:14  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     0ms  GET    /sight/shortestPath
+2019/01/22 09:27:19 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 09:27:19 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:27:19 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 09:27:19  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 09:27:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 09:27:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:27:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 09:27:22  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 09:27:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 09:27:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:27:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:27:24  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 09:27:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 09:27:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:27:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 09:27:24  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 09:27:28 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 09:27:28 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:27:28  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 09:27:28 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:27:28  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 09:27:48  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 09:27:50  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 09:27:51  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 09:27:52 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:27:52 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:27:52 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 09:27:52  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 09:32:35 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:32:35 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:32:35 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:32:35  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 09:41:21  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/all
+2019/01/22 09:49:52  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/22 09:49:58 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:49:58 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:49:58 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:49:58  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/getTips
+2019/01/22 09:51:29  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200    92ms  GET    /sight/all
+2019/01/22 09:52:07 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:52:07 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:52:07 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 09:52:07  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/getTips
+2019/01/22 09:52:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:52:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:52:09 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:52:09  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 09:52:26 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 09:52:26 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 09:52:26 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 09:52:26  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 09:58:50  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/22 09:59:29  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/findSight
+2019/01/22 10:00:34  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 10:00:44  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 10:01:04  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/shortestPath
+2019/01/22 10:01:15  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 10:01:18  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 10:01:36 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:01:36 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:01:36 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:01:36  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200    17ms  GET    /sight/hami
+2019/01/22 10:01:48 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:01:48 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:01:48 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:01:48  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/22 10:01:54 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:01:54 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:01:54 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:01:54  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 10:02:12 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:12 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:12 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:12  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 10:02:23 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 10:02:23 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [5128, 辽M33804, 3, 1548122543080, ]
+2019/01/22 10:02:23 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 150 ms; executed update [No name]
+2019/01/22 10:02:23  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   175ms  GET    /sight/addcar
+2019/01/22 10:02:23 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:23 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:23 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:02:23  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allCars
+2019/01/22 10:02:26 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:26 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:26 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:26  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 10:02:34 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:34 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:34 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:34  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 10:02:41 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 10:02:41 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [7232, 辽Y4403, 3, 1548122561822, ]
+2019/01/22 10:02:42 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 139 ms; executed update [No name]
+2019/01/22 10:02:42  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   166ms  GET    /sight/addcar
+2019/01/22 10:02:42 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:42 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:42 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:42  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allCars
+2019/01/22 10:02:43 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:43 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:43 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:43  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 10:02:46 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:46 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:46 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:46  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [2, 辽A227M6]
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 152 ms; executed update [No name]
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [1548122572142, 辽A227M6]
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 101 ms; executed update [No name]
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [1, 辽M33804]
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 89 ms; executed update [No name]
+2019/01/22 10:02:52  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   439ms  GET    /sight/outcar
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:52 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:02:52  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 10:02:53 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:02:53 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:02:53 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:02:53  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 10:03:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:03:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:03:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:03:01  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 10:03:07 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:03:07 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:03:07 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:03:07  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 10:03:07  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 10:03:35 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => INSERT INTO information(id, title, time) VALUES (?, ?, ?)
+2019/01/22 10:03:35 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => [4239, 新景点 云海发布, 2019/1/22 上午10:03:35]
+2019/01/22 10:03:35 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : total: 207 ms; executed update [No name]
+2019/01/22 10:03:35  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   239ms  GET    /manage/saveTip
+2019/01/22 10:03:38 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 10:03:38 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:03:38 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:03:38  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/getTips
+2019/01/22 10:03:55 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:03:55 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:03:55 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:03:55  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 10:03:55  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 10:04:24 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => INSERT INTO node(name, des, popu, leisure, toilet, turn) VALUES (?, ?, ?, ?, ?, ?)
+2019/01/22 10:04:24 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [五指山, 孙悟空, 58, false, true, 11]
+2019/01/22 10:04:24 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 143 ms; executed update [No name]
+2019/01/22 10:04:24  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   154ms  GET    /manage/addSight
+2019/01/22 10:04:24 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:04:24 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:04:24 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:04:24  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 10:04:24  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allPath
+2019/01/22 10:04:24  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 10:04:29  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/22 10:04:34 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:04:34 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:04:34 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:04:34  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 10:04:34  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 10:05:08 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => INSERT INTO path(weight, start, end) VALUES (?, ?, ?)
+2019/01/22 10:05:08 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [5, 五指山, 碧水潭]
+2019/01/22 10:05:08 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 129 ms; executed update [No name]
+2019/01/22 10:05:08  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   170ms  GET    /manage/uploadPath
+2019/01/22 10:05:09 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:05:09 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:05:09 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:05:09  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/allPath
+2019/01/22 10:05:14  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/22 10:05:22  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 10:05:27  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/shortestPath
+2019/01/22 10:05:31 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:05:31 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:05:31 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:05:31  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 10:05:31  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 10:05:45  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/all
+2019/01/22 10:05:48 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:05:48 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:05:48 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:05:48  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 10:05:48  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE start = ? AND end = ?
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [五指山, 碧水潭]
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 104 ms; executed update [No name]
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE start = ? AND end = ?
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [碧水潭, 五指山]
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 1 ms; executed update [No name]
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:06:01  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   121ms  GET    /sight/deletepath
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:06:01 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:06:01  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 10:06:01  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 10:06:05  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/22 10:06:09 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:06:09 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:06:09 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:06:09  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 10:06:09  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allNames
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => DELETE FROM node WHERE name = ?
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [五指山]
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 144 ms; executed update [No name]
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE start = ?
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [五指山]
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 2 ms; executed update [No name]
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => DELETE FROM path WHERE end = ?
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => [五指山]
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : total: 2 ms; executed update [No name]
+2019/01/22 10:06:19  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200   186ms  GET    /manage/deleteSight
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:06:19  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allNames
+2019/01/22 10:06:19 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 10:06:19  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allPath
+2019/01/22 10:07:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => INSERT INTO node(name, des, popu, leisure, toilet, turn) VALUES (?, ?, ?, ?, ?, ?)
+2019/01/22 10:07:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => [北门, 这是北门, 44, false, true, 8]
+2019/01/22 10:07:06 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : total: 124 ms; executed update [No name]
+2019/01/22 10:07:06  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   140ms  GET    /manage/addSight
+2019/01/22 10:07:06 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 10:07:06 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Parameters  => []
+2019/01/22 10:07:06 DEBUG [   worker@threadㄧ8 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 10:07:06  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 10:07:06  INFO [   worker@threadㄧ8 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/allPath
+2019/01/22 10:07:06  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 10:07:12  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/findSight
+2019/01/22 11:16:03 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 11:16:03 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:03 DEBUG [   worker@threadㄧ2 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:16:03  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/getTips
+2019/01/22 11:16:04  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/22 11:16:07  INFO [   worker@threadㄧ2 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/findSight
+2019/01/22 11:16:17 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:16:17 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:17 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:16:17  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 11:16:19 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:16:19 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:19 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:16:19  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 11:16:20 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:16:20 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:20 DEBUG [   worker@threadㄧ3 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:16:20  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 11:16:23  INFO [   worker@threadㄧ3 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 11:16:23 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 11:16:23 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:23 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:16:23  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE path SET weight = ?, start = ?, end = ? WHERE id = ?
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [12, 狮子山, 北门, 1]
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 97 ms; executed update [No name]
+2019/01/22 11:16:36  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   136ms  GET    /manage/uploadPath
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:16:36 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:16:36  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 11:17:35 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 11:17:35 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:17:35 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:17:35  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/getTips
+2019/01/22 11:18:02 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:02 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:02 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:18:02  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 11:18:11 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:11 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:11 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 5 ms, execution: 4 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:18:11  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200    14ms  GET    /sight/allCars
+2019/01/22 11:18:26 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:26 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:26 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:18:26  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 11:18:34 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:34 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:34 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:18:34  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allCars
+2019/01/22 11:18:46 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 11:18:46 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1723, 辽C77999, 3, 1548127126703, ]
+2019/01/22 11:18:46 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 138 ms; executed update [No name]
+2019/01/22 11:18:46  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   159ms  GET    /sight/addcar
+2019/01/22 11:18:46 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:46 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:46 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:18:46  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allCars
+2019/01/22 11:18:48 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 11:18:48 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [2820, , 3, 1548127128719, ]
+2019/01/22 11:18:48 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 141 ms; executed update [No name]
+2019/01/22 11:18:48  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   165ms  GET    /sight/addcar
+2019/01/22 11:18:48 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:48 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:48 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:18:48  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allCars
+2019/01/22 11:18:49 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:18:49 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:18:49 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:18:49  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allCars
+2019/01/22 11:19:03 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:03 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:03 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 6 ms, execution: 4 ms, reading and parsing: 2 ms; executed [null]
+2019/01/22 11:19:03  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200    23ms  GET    /sight/allCars
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [2, 444]
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 136 ms; executed update [No name]
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1548127169366, 444]
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 181 ms; executed update [No name]
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 5 ms, execution: 2 ms, reading and parsing: 3 ms; executed [null]
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1, 辽C77999]
+2019/01/22 11:19:29 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 124 ms; executed update [No name]
+2019/01/22 11:19:29  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   569ms  GET    /sight/outcar
+2019/01/22 11:19:30 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:30 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:30 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 3 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:19:30  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     9ms  GET    /sight/allCars
+2019/01/22 11:19:34 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:34 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:34 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:19:34  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/22 11:19:39 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:39 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:39 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:19:39  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     9ms  GET    /sight/allCars
+2019/01/22 11:19:40 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:40 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:40 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:19:40  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/allCars
+2019/01/22 11:19:43 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:43 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:43 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:19:43  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allCars
+2019/01/22 11:19:44 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:44 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:44 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 4 ms, execution: 2 ms, reading and parsing: 2 ms; executed [null]
+2019/01/22 11:19:44  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200    12ms  GET    /sight/allCars
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [2, fdwqef]
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 170 ms; executed update [No name]
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1548127190236, fdwqef]
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 118 ms; executed update [No name]
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1, ]
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 104 ms; executed update [No name]
+2019/01/22 11:19:50  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   500ms  GET    /sight/outcar
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:19:50 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:19:50  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200    10ms  GET    /sight/allCars
+2019/01/22 11:20:01 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:01 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:01 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 3 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:20:01  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200    14ms  GET    /sight/allCars
+2019/01/22 11:20:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:08 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:20:08  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/allCars
+2019/01/22 11:20:11 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:20:11 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [2, 川D22emi]
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 111 ms; executed update [No name]
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1548127211938, 川D22emi]
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 103 ms; executed update [No name]
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1, 辽Y4403]
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 119 ms; executed update [No name]
+2019/01/22 11:20:12  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   410ms  GET    /sight/outcar
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:12 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:20:12  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allCars
+2019/01/22 11:20:14 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:14 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:14 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:20:14  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [2, 辽Y4403]
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 128 ms; executed update [No name]
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1548127217548, 辽Y4403]
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 94 ms; executed update [No name]
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:20:17  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   267ms  GET    /sight/outcar
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:20:17  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [2, 川C22701]
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 126 ms; executed update [No name]
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => [1548127222468, 川C22701]
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : total: 95 ms; executed update [No name]
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:20:22  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200   271ms  GET    /sight/outcar
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:22 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:20:22  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 11:20:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:20:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:20:24 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:20:24  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allCars
+2019/01/22 11:20:36  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/all
+2019/01/22 11:21:12  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/findSight
+2019/01/22 11:21:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 11:21:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:21:17 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:21:17  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/getTips
+2019/01/22 11:21:20 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 11:21:20 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:21:20 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 3 ms, execution: 2 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 11:21:20  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allCars
+2019/01/22 11:21:21  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 11:21:38  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 11:21:38 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 11:21:38 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:21:38 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:21:38  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allPath
+2019/01/22 11:22:44 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Execute SQL => INSERT INTO node(name, des, popu, leisure, toilet, turn) VALUES (?, ?, ?, ?, ?, ?)
+2019/01/22 11:22:44 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : Parameters  => [九寨沟, 很难看, 0, false, false, 3]
+2019/01/22 11:22:44 DEBUG [   worker@threadㄧ5 ]                       o.s.Query : total: 136 ms; executed update [No name]
+2019/01/22 11:22:44  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200   160ms  GET    /manage/addSight
+2019/01/22 11:22:44  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/allNames
+2019/01/22 11:22:44 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 11:22:44 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:22:44 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:22:44  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allPath
+2019/01/22 11:22:44  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 11:22:49  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/all
+2019/01/22 11:23:09  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 11:23:16 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 11:23:16 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Parameters  => []
+2019/01/22 11:23:16 DEBUG [   worker@threadㄧ4 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 11:23:16  INFO [   worker@threadㄧ4 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/allPath
+2019/01/22 11:23:16  INFO [   worker@threadㄧ5 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 13:18:55  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/all
+2019/01/22 13:19:00  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     8ms  GET    /sight/findSight
+2019/01/22 13:19:04 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 13:19:04 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:19:04 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:19:04  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/getTips
+2019/01/22 13:19:27  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/all
+2019/01/22 13:19:51  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200    10ms  GET    /sight/findSight
+2019/01/22 13:20:42  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 13:20:49  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     0ms  GET    /sight/shortestPath
+2019/01/22 13:20:57  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     0ms  GET    /sight/shortestPath
+2019/01/22 13:21:00  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allNames
+2019/01/22 13:21:04 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:21:04 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:04 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 0 ms, execution: 0 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:21:04  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/hami
+2019/01/22 13:21:17 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:21:17 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:17 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:21:17  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     5ms  GET    /sight/hami
+2019/01/22 13:21:22 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:21:22 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:22 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:21:22  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/hami
+2019/01/22 13:21:24 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:24 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:24 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:21:24  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:21:38 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:38 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:38 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:21:38  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:21:48 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 13:21:48 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [4457, 辽A2113, 1, 1548134508199, ]
+2019/01/22 13:21:48 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 166 ms; executed update [No name]
+2019/01/22 13:21:48  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200   201ms  GET    /sight/addcar
+2019/01/22 13:21:48 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:48 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:48 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:21:48  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     9ms  GET    /sight/allCars
+2019/01/22 13:21:49 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:49 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:49 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:21:49  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:21:50 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:50 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:50 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:21:50  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:21:56 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 13:21:56 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [5012, 辽A832s, 1, 1548134516752, ]
+2019/01/22 13:21:56 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 143 ms; executed update [No name]
+2019/01/22 13:21:56  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200   168ms  GET    /sight/addcar
+2019/01/22 13:21:56 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:56 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:56 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:21:56  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allCars
+2019/01/22 13:21:58 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:58 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:58 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:21:58  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 13:21:59 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:21:59 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:21:59 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:21:59  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 13:22:05 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => INSERT INTO parking(id, carid, status, start, end) VALUES (?, ?, ?, ?, ?)
+2019/01/22 13:22:05 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [403, 辽B776, 3, 1548134525100, ]
+2019/01/22 13:22:05 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 98 ms; executed update [No name]
+2019/01/22 13:22:05  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200   114ms  GET    /sight/addcar
+2019/01/22 13:22:05 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:05 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:05 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:05  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     4ms  GET    /sight/allCars
+2019/01/22 13:22:06 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:06 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:06 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:06  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:22:09 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:09 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:09 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:22:09  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allCars
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [2, uiui]
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 166 ms; executed update [No name]
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => UPDATE parking SET end = ? WHERE carid = ?
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [1548134533104, uiui]
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 89 ms; executed update [No name]
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => UPDATE parking SET status = ? WHERE carid = ?
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [1, 辽B776]
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 124 ms; executed update [No name]
+2019/01/22 13:22:13  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200   443ms  GET    /sight/outcar
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:13 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:13  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     7ms  GET    /sight/allCars
+2019/01/22 13:22:14 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:14 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:14 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 2 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:14  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:22:19 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM parking
+2019/01/22 13:22:19 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:19 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:19  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allCars
+2019/01/22 13:22:24  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 13:22:24 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:22:24 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:24 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:24  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 13:22:45 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => INSERT INTO node(name, des, popu, leisure, toilet, turn) VALUES (?, ?, ?, ?, ?, ?)
+2019/01/22 13:22:45 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => [五行山, 这是一座山, 87, false, true, 15]
+2019/01/22 13:22:45 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : total: 154 ms; executed update [No name]
+2019/01/22 13:22:45  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200   182ms  GET    /manage/addSight
+2019/01/22 13:22:45  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     9ms  GET    /sight/allNames
+2019/01/22 13:22:45 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:22:45 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:22:45 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 4 ms, execution: 4 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:22:45  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     9ms  GET    /sight/allPath
+2019/01/22 13:22:45  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allNames
+2019/01/22 13:22:48  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/all
+2019/01/22 13:22:51  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     1ms  GET    /sight/findSight
+2019/01/22 13:23:04  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/findSight
+2019/01/22 13:23:23 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:23:23 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:23:23 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 1 ms, execution: 1 ms, reading and parsing: 0 ms; executed [null]
+2019/01/22 13:23:23  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 13:23:23  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allPath
+2019/01/22 13:23:40 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => INSERT INTO path(weight, start, end) VALUES (?, ?, ?)
+2019/01/22 13:23:40 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => [3, 五行山, 碧水亭]
+2019/01/22 13:23:40 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : total: 157 ms; executed update [No name]
+2019/01/22 13:23:40  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200   184ms  GET    /manage/uploadPath
+2019/01/22 13:23:40 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:23:40 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:23:40 DEBUG [   worker@threadㄧ6 ]                       o.s.Query : Total       => 2 ms, execution: 1 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:23:40  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     6ms  GET    /sight/allPath
+2019/01/22 13:23:42  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/all
+2019/01/22 13:23:50 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Execute SQL => SELECT * FROM path
+2019/01/22 13:23:50 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Parameters  => []
+2019/01/22 13:23:50 DEBUG [   worker@threadㄧ7 ]                       o.s.Query : Total       => 1 ms, execution: 0 ms, reading and parsing: 1 ms; executed [null]
+2019/01/22 13:23:50  INFO [   worker@threadㄧ6 ]    c.b.s.n.HttpServerDispatcher :  200     3ms  GET    /sight/allNames
+2019/01/22 13:23:50  INFO [   worker@threadㄧ7 ]    c.b.s.n.HttpServerDispatcher :  200     2ms  GET    /sight/allPath
+2019/01/22 18:29:55  INFO [              main ]                       c.b.Blade : current environment is: default
+2019/01/22 18:29:55  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.jdk.version    => 1.8.0_131
+2019/01/22 18:29:55  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.dir       => E:\blade_projects\datastructureproject
+2019/01/22 18:29:55  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.java.io.tmpdir => C:\Users\张奥东\AppData\Local\Temp\
+2019/01/22 18:29:55  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.user.timezone  => Asia/Shanghai
+2019/01/22 18:29:55  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.file.encoding  => UTF-8
+2019/01/22 18:29:55  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : environment.classpath      => E:/blade_projects/datastructureproject/target/classes/
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/deletepath
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/shortestPath
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/findSight
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/allNames
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/outcar
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/uploadPath
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/deleteSight
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/addcar
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/saveTip
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/allCars
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/hami
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/allPath
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /manage/addSight
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/all
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]            c.b.m.r.RouteMatcher : Add route  GET     /sight/getTips
+2019/01/22 18:29:56  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Register bean: [com.bladejava.config.loadConfig@d4f6600, com.blade.Environment@2a7b5049, com.bladejava.config.systemConfig@1ba4ec80, com.bladejava.controller.manageControl@611c1849, com.bladejava.controller.indexControl@17951d0c, com.bladejava.controller.sightControl@679cfeaf, com.bladejava.config.loadConfig@d4f6600]
+2019/01/22 18:29:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Watched environment: true
+2019/01/22 18:29:57  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Use NioEventLoopGroup
+2019/01/22 18:29:58  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : dataStructureProject initialize successfully, Time elapsed: 3399 ms
+2019/01/22 18:29:58  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Blade start with  0.0.0.0:8999 
+2019/01/22 18:29:58  INFO [          _(:3」∠)_ ]             c.b.s.n.NettyServer : Open browser access http://127.0.0.1:8999 ⚡
+
+2019/01/22 18:30:03 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Execute SQL => SELECT * FROM information
+2019/01/22 18:30:03 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Parameters  => []
+2019/01/22 18:30:04 DEBUG [   worker@threadㄧ1 ]                       o.s.Query : Total       => 14 ms, execution: 3 ms, reading and parsing: 11 ms; executed [null]
+2019/01/22 18:30:04  INFO [   worker@threadㄧ1 ]    c.b.s.n.HttpServerDispatcher :  200   278ms  GET    /sight/getTips
