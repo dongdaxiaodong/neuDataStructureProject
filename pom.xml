@@ -186,7 +186,7 @@
         </profile>
     </profiles>
     <build>
-        <finalName>dataStructure</finalName>
+        <finalName>data</finalName>
         <plugins>
             <!-- Compile -->
             <plugin>

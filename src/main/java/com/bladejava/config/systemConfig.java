@@ -26,6 +26,8 @@ public class systemConfig  {
         Connection c = null;
         Statement stmt=null;
         try {
+//            String pathorg = getClass().getClassLoader().getResource("system.db").toString();
+//            System.out.println(pathorg);
             Class.forName("org.sqlite.JDBC");
             c = DriverManager.getConnection("jdbc:sqlite:system.db");
             myLinkedList<sceneNode> sceneNodeList=new myLinkedList<>();

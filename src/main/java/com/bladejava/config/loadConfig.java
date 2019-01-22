@@ -19,7 +19,9 @@ public class loadConfig implements BladeLoader{
     @Override
     public void load(Blade blade){
         /* 配置数据库操作库 */
-        Anima.open("jdbc:sqlite:src/main/java/com/bladejava/system.db");
+//        String pathorg = getClass().getClassLoader().getResource("system.db").toString();
+//        System.out.println(pathorg);
+        Anima.open("jdbc:sqlite:system.db");
 
         /* 加载景点数据到内存中 */
         sceneGraphSys.upload();
