@@ -5,7 +5,7 @@
 前端使用vue全家桶
 
 ### 如何使用?
-项目依赖: 1. java(jdk 8以上)   2.maven (maven安装可以看这(!https://www.yiibai.com/maven/maven_environment_setup.html))
+项目依赖: 1. java(jdk 8以上)   2.maven (maven安装可以看这https://www.yiibai.com/maven/maven_environment_setup.html)
 
 在确保电脑安装了java以及maven后，将项目clone下来，当然也可以下载zip文件夹。
 
